@@ -18,6 +18,8 @@ cmake ../
 ./CliCfg -e <0/1> -f <Configuration file name>
 ```
 -e option is to indicate if file is encrypted or not encrypted
+
 -e 0 : Input file human redable plain text configuration file
+
 -e 1: Input file is encrypted with AES256 algorithm with key stored in **key** file of this repository
 
